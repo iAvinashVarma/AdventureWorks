@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8e05a578-b3d8-40ed-b881-e5e8d89fe46d" ChangeDateTime="02/17/2019 08:13:15">
+    <Property Name="ElementName" Value="[dbo].[ReportDataType].[Order]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ReportDataType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ReportFileTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3cec9f85-37ad-4f17-919f-2735c0dc8a38" ChangeDateTime="02/17/2019 10:09:42">
+    <Property Name="ElementName" Value="[dbo].[ReportDateLog].[Expiration]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ReportDateLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TimeRange" />
+  </Operation>
+</Operations>
